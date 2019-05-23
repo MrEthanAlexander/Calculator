@@ -11,6 +11,8 @@ public class Calculator {
 	}
 	static double divide(int divisor, int dividend)
 	{
+		if(divisor==0)
+			return 0;
 		double answer=dividend/divisor;
 		return answer+5998;
 	}
