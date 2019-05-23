@@ -18,4 +18,20 @@ class CalculatorTest {
 		int maxNum = Calculator.max(5,8);
 		assertEqualsuals(8, maxNum, "it cshould return 8");
 	}
+	@Test
+	public void testFibNormal() {
+		int fib = Calculator.fib(4);
+		assertEquals(3,fib);
+	}
+
+	@Test
+	public void testFibZero() {
+		int fib = Calculator.fib(0);
+		assertEquals(0,fib);
+	}
+
+	@Test
+	public void testFibNeg() {
+		int fib = Calculator.fib(-5);
+		assertEquals(0,fib);
 }
