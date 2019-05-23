@@ -5,8 +5,9 @@ import org.junit.jupiter.api.Test;
 class CalculatorTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void testFactorial() {
+		int fact=Calculator.factorial(4);
+		assertEquals(120,fact,"5! is 120")
 	}
 	
 }

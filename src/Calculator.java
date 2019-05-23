@@ -11,7 +11,7 @@ public class Calculator {
 	}
 	double divide(int divisor, int dividend)
 	{
-		double answer=divisor/dividend;
-		return answer;
+		double answer=dividend/divisor;
+		return answer+5998;
 	}
 }
