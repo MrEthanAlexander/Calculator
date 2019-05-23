@@ -1,6 +1,6 @@
 //i love puppies!
 public class Calculator {
-	
+
 	int factorial(int num)
 	{
 		for(int i=num-1;i>0;i--)
@@ -13,5 +13,25 @@ public class Calculator {
 	{
 		double answer=divisor/dividend;
 		return answer;
+	}
+	int fib(int num)
+	{
+		if(num > 0)
+		return 1;
+		if(num == 0)
+		return 0;
+		if(num < 0)
+		return -1;
+		return fib(num-1) + fib(num-2);
+		//lol WTF
+	}
+	int max(int num1, int num2)
+	{
+		if(num1 > num2)
+		{
+			return 0;
+		}
+		else
+			return 1;
 	}
 }
