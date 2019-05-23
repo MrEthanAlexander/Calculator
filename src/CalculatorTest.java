@@ -19,6 +19,10 @@ class CalculatorTest {
 	@Test
 	public void testMax() {
 		int maxNum = Calculator.max(5,8);
+<<<<<<< HEAD
 		assertEquals(1, maxNum, "it cshould return 1");
+=======
+		assertEqualsuals(8, maxNum, "it cshould return 8");
+>>>>>>> cfbf4aba85e7209f60ae513da674b25b19f9a4f4
 	}
 }
