@@ -16,6 +16,6 @@ class CalculatorTest {
 	}
 	public void testMax() {
 		int maxNum = Calculator.max(5,8);
-		assertEqualsuals(1, maxNum, "it cshould return 1");
+		assertEquals(1, maxNum, "it cshould return 1");
 	}
 }
